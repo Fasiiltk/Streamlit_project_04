@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-# Load the trained model
+# Load the trained model dataset
 with open("tip_prediction_model.pkl", "rb") as file:
     model = pickle.load(file)
 
